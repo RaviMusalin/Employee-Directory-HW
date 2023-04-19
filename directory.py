@@ -12,7 +12,7 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/search")
+@app.route("/search") # /search instead of /employee_search
 def get_employee_details():
     """Process search and return the employee details page."""
 
